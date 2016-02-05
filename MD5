@@ -1,0 +1,8 @@
+44066eaa759c7f0276cbb0d485f58b6b *DESCRIPTION
+f4b2d5602620310c4c84fdc50b3a3ec0 *NAMESPACE
+4fadee998b8ef846ec399d10de66b221 *R/gmeta.r
+b962ab178a237a37d863eb1a4b1841d4 *data/hiring.RData
+2cdc6bae1f2516b508017986a0e879d6 *data/ulcer.RData
+c512ec4a346801b9b836d0732d84bc54 *man/gmeta.Rd
+80fa6cf541fc06aaae850d09642eb8dd *man/plot.gmeta.Rd
+18d9098ede42674ffee42b7f0d63de82 *src/pvaluecombine.c
