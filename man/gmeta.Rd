@@ -136,11 +136,11 @@ gmeta(gmi, gmi.type = c('pivot', 'cd', 'pvalue', '2x2'),
 	Confidencedence distributions and a unifying framework for meta-analysis.
 	\emph{Journal of the American Statistical Association}, \bold{106} 320-333.
 
-	Yang, G., Lui, D., Wang, J. and Xie, M. (2015). 
-	Meta-analysis of rare events in drug safety studies: an all-embracing framework for exact inferences. 
-	\emph{Preprint}.
+	Yang, G., Liu, D., Wang, J. and Xie, M. (2016). 
+	Meta-analysis framework for exact inferences with application to the analysis of rare events.
+	\emph{Biometrics}.
 
-	Yusuf, S., Peto, R., Lewis, J., Colins, R. and P. Sleight(1985)
+	Yusuf, S., Peto, R., Lewis, J., Colins, R. and Sleight, P. (1985)
 	Beta blockade during and after myocardial infarction-An overview of randomized trials.
 	\emph{Progress in Cardiovascular Disease}, \bold{27} 335-371.
 }

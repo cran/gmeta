@@ -47,6 +47,10 @@
 	Xie, M., Singh, K., and Strawderman, W. E. (2011).
 	Confidencedence distributions and a unifying framework for meta-analysis.
 	\emph{Journal of the American Statistical Association}, \bold{106} 320-333.
+	
+	Yang, G., Liu, D., Wang, J. and Xie, M. (2016). 
+	Meta-analysis framework for exact inferences with application to the analysis of rare events.
+	\emph{Biometrics}.
 }
 \seealso{
 	\code{\link{gmeta}}

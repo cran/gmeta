@@ -17,8 +17,8 @@ SEXP pvaluecombine( SEXP RpVec, SEXP Rmethod ) {
 	int k = length(RpVec);
 	const char * method = CHAR(STRING_ELT(Rmethod, 0));
 	
-	SEXP Rcmbdpvalue;
-	PROTECT(Rcmbdpvalue = allocVector(REALSXP, 1));
+	SEXP Rcmbdpvalue = PROTECT(allocVector(REALSXP, 1));
+	memset(REAL(Rcmbdpvalue), 0.0, sizeof(double));
 	
 	double * cmbdpvalue = REAL(Rcmbdpvalue);
 	if (!strcmp(method, "fisher")) {
@@ -59,7 +59,7 @@ SEXP pvaluecombine( SEXP RpVec, SEXP Rmethod ) {
 	// return
 	UNPROTECT(1);
 	return(Rcmbdpvalue);
-};
+}
 
 double pConvolveUniform( double q, double n ) {
 	double p = 0.0;
@@ -68,7 +68,7 @@ double pConvolveUniform( double q, double n ) {
 	}
 	p = p>1.0?1.0:p;
 	return(p);
-};
+}
 
 double nChoosek( double n, double k ) {
     if (k > n) return 0;
@@ -81,10 +81,10 @@ double nChoosek( double n, double k ) {
         rslt /= i;
     }
     return rslt;
-};
+}
 
 double nFactorial(double n) {
     if( n == 0 ) return 1;
     if( n  > 0 ) return n * nFactorial(n-1) ;
 	return 0;
-};
+}
