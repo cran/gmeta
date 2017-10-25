@@ -1,7 +1,7 @@
-useDynLib(gmeta)
+useDynLib(gmeta, .registration = TRUE)
 
 importFrom("graphics", "abline", "legend", "lines", "plot", "points")
-importFrom("stats", "approx", "dbeta", "dbinom", "dnorm", "ecdf", "median", "optim", "pbeta", "pchisq", "pnorm", "qnorm", "rbinom", "rexp", "runif", "uniroot", "var")
+importFrom("stats", "quantile", "approx", "dbeta", "dbinom", "dnorm", "ecdf", "median", "optim", "pbeta", "pchisq", "pnorm", "qnorm", "rbinom", "rexp", "runif", "uniroot", "var")
 
 import(BiasedUrn)
 import(binom)
@@ -27,6 +27,9 @@ export(plot.gmeta.e)
 #export(gmeta.plot.cdd)
 #export(gmeta.plot.cvs)
 #export(gmeta.plot.cdf)
+# functions in meta.np
+export(np.gmeta)
+
 
 S3method(gmeta, default)
 S3method(plot, gmeta.e) 
@@ -40,3 +43,8 @@ S3method(print, summary.gmeta.p)
 S3method(summary, gmeta.e) 
 S3method(summary, gmeta.m) 
 S3method(summary, gmeta.p)
+
+
+
+
+

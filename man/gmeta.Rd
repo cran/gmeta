@@ -138,7 +138,7 @@ gmeta(gmi, gmi.type = c('pivot', 'cd', 'pvalue', '2x2'),
 
 	Yang, G., Liu, D., Wang, J. and Xie, M. (2016). 
 	Meta-analysis framework for exact inferences with application to the analysis of rare events.
-	\emph{Biometrics}.
+	\emph{Biometrics}, \bold{72} 1378-1386.
 
 	Yusuf, S., Peto, R., Lewis, J., Colins, R. and Sleight, P. (1985)
 	Beta blockade during and after myocardial infarction-An overview of randomized trials.

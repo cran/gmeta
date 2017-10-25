@@ -50,7 +50,7 @@
 	
 	Yang, G., Liu, D., Wang, J. and Xie, M. (2016). 
 	Meta-analysis framework for exact inferences with application to the analysis of rare events.
-	\emph{Biometrics}.
+	\emph{Biometrics}, \bold{72} 1378-1386.
 }
 \seealso{
 	\code{\link{gmeta}}
