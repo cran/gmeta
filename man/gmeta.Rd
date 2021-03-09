@@ -102,7 +102,7 @@ gmeta(gmi, gmi.type = c('pivot', 'cd', 'pvalue', '2x2'),
 	For model-based meta-analysis and 2x2 combination, it is a list of \code{x.grids}, \code{individual.cds}, \code{individual.means}, \code{individual.stddevs}, \code{individual.medians}, \code{individual.cis}, \code{combined.cd}, \code{combined.density}, \code{combined.mean}, \code{combined.sd}, \code{combined.median}, \code{individual.ci}, \code{method}, \code{linkfunc}, \code{weight}, \code{tau2}, \code{ci.level}, etc.
 }
 \author{
-	Guang Yang <gyang.rutgers@gmail.com>, Jerry Q. Cheng <jcheng1@rwjms.rutgers.edu>, and Minge Xie <mxie@stat.rutgers.edu>
+	Guang Yang <gyang.rutgers@gmail.com>, Jerry Q. Cheng <jcheng18@nyit.edu>, and Minge Xie <mxie@stat.rutgers.edu>
 }
 \note{
 	Revised on 2014/12/10.

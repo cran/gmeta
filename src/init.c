@@ -8,7 +8,7 @@
 */
 
 /* .Call calls */
-extern SEXP pvaluecombine(SEXP, SEXP, SEXP);
+extern SEXP pvaluecombine(SEXP, SEXP);
 
 /* .Fortran calls */
 extern void F77_NAME(confdistint)(void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *, void *);

@@ -75,7 +75,7 @@ A three dimensional array containing the min.unif, max.smooth, mean.smooth.
 
 }
 \author{
-Wei Qian <wq24@rutgers.edu>, Jerry Q. Cheng <jcheng1@rwjms.rutgers.edu>
+Wei Qian <wq24@rutgers.edu>, Jerry Q. Cheng <jcheng18@nyit.edu>
 }
 \note{
 Revised on 2017/10/01.

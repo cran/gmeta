@@ -33,7 +33,7 @@
 	This function produces a forest-like plot for model-based or 2x2-table-based meta-analysis from the result of \code{gmeta} function call. The argument \code{plot.option} provides a choice of displaying confidence densities, curves, or distributions.
 }
 \author{
-	Guang Yang <gyang.rutgers@gmail.com>, Jerry Q. Cheng <jcheng1@rwjms.rutgers.edu> and Minge Xie <mxie@stat.rutgers.edu>
+	Guang Yang <gyang.rutgers@gmail.com>, Jerry Q. Cheng <jcheng18@nyit.edu> and Minge Xie <mxie@stat.rutgers.edu>
 }
 \note{
 	Revised on 2014/12/10.

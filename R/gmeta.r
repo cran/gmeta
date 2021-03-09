@@ -1285,7 +1285,7 @@ gmeta.check.study.names <- function(gmi, study.names) {
 			study.names = paste('study-', formatC(c(1:nn1),width=ceiling(log10(nn1)),format='d',flag='0'), sep='')
 		}
 		# study.names - again
-		if ( is.null(study.names) || (study.names == rep(1,nn1)) ) {
+		if ( is.null(study.names) || length(unique(study.names) == nn1) ) {
 			study.names = paste('study-', formatC(c(1:nn1),width=ceiling(log10(nn1)),format='d',flag='0'), sep='')
 		}
 	} else if ( is.vector(study.names) ) {
